@@ -1,4 +1,8 @@
-# nuxt-form
+# Shopping cart with nuxt and pinia
+
+This app is just a demo to test nuxt, pinia and vuetify.
+
+![preview](images/demo.gif)
 
 ## Build Setup
 
