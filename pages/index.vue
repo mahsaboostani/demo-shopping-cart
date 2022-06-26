@@ -36,7 +36,7 @@ export default {
     return { eventStore };
   },
   name: "IndexPage",
-  components: [EventCard],
+  components: { EventCard },
   data: () => ({
     items: ["food", "fruit", "bread", "diary"],
     category: "",
