@@ -16,14 +16,25 @@ export const useEventStore = defineStore('EventStore', {
             })
 
         },
-        addToCart() {
-            let item = state.cart.find((i) => i.id === product.id);
-            item = item ? cart[item.id]++ :
+        addToCart(product) {
+            let item = this.cart.find((i) => i.id === product.id);
+            if (item) {
+                item.quantity++;
+            } else {
+                this.cart.push({ id: product.id, name: product.name, quantity: 1 });
+            }
 
-                this.cart++;
         },
-        removeFromCart() {
-            this.cart--;
+        removeFromCart(product) {
+            let item = this.cart.find((i) => i.id === product.id);
+            if (item) {
+                if (item.quantity > 1) {
+                    item.quantity--;
+                } else {
+                    this.cart = this.cart.filter((i) => i.id !== product.id);
+
+                }
+            }
         }
     }
 })

@@ -2,13 +2,25 @@
   "food": [
     {
       "id": 1,
-      "name": "Cesar Salad",
+      "name": "Cesar Salad 1",
       "price": "6",
       "image": "cesar.jpg"
     },
     {
       "id": 2,
-      "name": "Fish",
+      "name": "Fish 1",
+      "price": "5",
+      "image": "fish.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cesar Salad 2",
+      "price": "6",
+      "image": "cesar.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fish 2",
       "price": "5",
       "image": "fish.jpg"
     }
