@@ -9,7 +9,7 @@ export const useEventStore = defineStore('EventStore', {
     },
     actions: {
         fetchEvents(category) {
-            return axios.get('http://localhost:3001/' + category).then(response => {
+            return axios.get('https://my-json-server.typicode.com/mahsaboostani/demo-shopping-cart/' + category).then(response => {
                 this.events = response.data
             }).catch(error => {
                 throw error

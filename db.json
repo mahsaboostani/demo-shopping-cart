@@ -27,13 +27,13 @@
   ],
   "fruit": [
     {
-      "id": 3,
+      "id": 5,
       "name": "Apple",
       "price": "2",
       "image": "apple.jpg"
     },
     {
-      "id": 4,
+      "id": 6,
       "name": "Peach",
       "price": "2",
       "image": "peach.jpg"
@@ -41,13 +41,13 @@
   ],
   "bread": [
     {
-      "id": 5,
+      "id": 7,
       "name": "Kaas Croissant",
       "price": "1",
       "image": "kaas-crossient.jpg"
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Chocolate Croissant",
       "price": "1.5",
       "image": "chocolate-crossient.jpg"
@@ -55,13 +55,13 @@
   ],
   "diary": [
     {
-      "id": 7,
+      "id": 9,
       "name": "Cheese ",
       "price": "3",
       "image": "cheese.jpg"
     },
     {
-      "id": 8,
+      "id": 10,
       "name": "Yogurt",
       "price": "4",
       "image": "yogurt.jpg"
