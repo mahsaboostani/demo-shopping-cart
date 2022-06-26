@@ -1,0 +1,58 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Cesar Salad",
+      "price": "6",
+      "image": "cesar.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Fish",
+      "price": "5",
+      "image": "fish.jpg"
+    }
+  ],
+  "fruit": [
+    {
+      "id": 3,
+      "name": "Apple",
+      "price": "2",
+      "image": "apple.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Peach",
+      "price": "2",
+      "image": "peach.jpg"
+    }
+  ],
+  "bread": [
+    {
+      "id": 5,
+      "name": "Kaas Croissant",
+      "price": "1",
+      "image": "kaas-crossient.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Croissant",
+      "price": "1.5",
+      "image": "chocolate-crossient.jpg"
+    }
+  ],
+  "diary": [
+    {
+      "id": 7,
+      "name": "Cheese ",
+      "price": "3",
+      "image": "cheese.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Yogurt",
+      "price": "4",
+      "image": "yogurt.jpg"
+    }
+  ]
+}
