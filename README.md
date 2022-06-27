@@ -4,6 +4,12 @@ This app is just a demo to test nuxt, pinia and vuetify.
 
 ![preview](images/demo.gif)
 
+Dockerfile is created for this app and it can be run by docker-compise.
+
+```
+docker-compose up
+```
+
 ## Build Setup
 
 ```bash
